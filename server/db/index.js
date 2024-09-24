@@ -18,7 +18,7 @@ const sequelize = new Sequelize('my_recipes', process.env.USER, process.env.PASS
 const db = {
   Sequelize: Sequelize,
   sequelize: sequelize,
-  Users: require("./Users")(sequelize, Sequelize),
+  Users: require("./users")(sequelize, Sequelize),
   Recipes: require("./recipes")(sequelize, Sequelize),
   Recipe_pics: require('./recipe_pics')(sequelize, Sequelize),
   Shopping_List: require('./shopping_list')(sequelize, Sequelize),
