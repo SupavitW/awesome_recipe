@@ -1,4 +1,4 @@
-### Title: Awesome Recipe Full Stack Project
+# Title: Awesome Recipe Full Stack Project
 
 ## Description:
 Create a web application that allows users to search, store, and manage their recipes. The system should enable users to browse recipes, save their favorite recipes, create new recipes, and organize them into categories or collections.
