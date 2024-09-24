@@ -1,0 +1,47 @@
+.whyHear_container {
+    margin-bottom: 4rem;
+}
+
+.reasonsContainer {
+    background-color: #e8e9eb75;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.reason {
+    text-align: center;
+    min-height: 11em;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
+    /* Create a vertical line using ::after pseudo-element */
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -0.7rem; /* Adjust this value as needed */
+        bottom: 0;
+        width: 0.15rem; /* Width of the line */
+        background-color: white; /* Color of the line */
+    }
+}
+
+.reason:last-child::after {
+    display: none;
+}
+
+.reason h4 {
+    font-weight: normal;
+    margin-top: 0.5rem;
+}

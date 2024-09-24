@@ -1,0 +1,129 @@
+.recipesPage_banner {
+    background-color: #ffcc00;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipesPage_banner h2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+.searchBar_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    
+}
+
+.searchBar_container input {
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 50%;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Custom box-shadow */
+}
+
+.searchBar_container input:focus {
+    outline: none;
+}
+
+.searchBar_container button {
+    box-sizing: border-box;
+    font-family: 'nunito', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    min-height: 3.44rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.8rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Original box-shadow */
+}
+
+.searchBar_container button:hover {
+    background-color: #0056b3;
+}
+
+.searchBar_container button:active {
+    background-color: #003366;
+}
+
+.recipeCards_container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 3rem;
+    row-gap: 4rem;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.selectCategory_container {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    width: 20%;
+}
+
+.selectCategory_container label {
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 60%;
+}
+
+.selectCategory_container select {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 7rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

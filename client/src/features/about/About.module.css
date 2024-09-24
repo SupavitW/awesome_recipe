@@ -1,0 +1,45 @@
+.sideBySide {
+    display: flex;
+    padding: 2.5rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.sideBySide img {
+    max-width: 41.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+}
+
+.yellow {
+    color: #ffcc00;
+}
+
+.message_container {
+    background-color: #e8e9eb75;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message_container h2 {
+    margin: auto auto;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.message_container ul {
+    list-style-type: disc;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.bold_yellow {
+    font-weight: bold;
+    color: #ffcc00;
+}

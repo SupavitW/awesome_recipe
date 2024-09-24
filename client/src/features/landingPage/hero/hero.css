@@ -1,0 +1,98 @@
+.landingPage_hero_hero-container {
+    margin: 4rem 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.landingPage_hero_line {
+    width: 100%;
+    height: 0.15em;
+    background-color: #ffdf00;
+}
+
+.landingPage_hero_card-text h1{
+    font-size: 3.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.5;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.landingPage_hero_card-text span {
+    font-weight: 500;
+}
+
+.landingPage_hero_card-text h2 {
+    margin: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.landingPage_hero_searchbox {
+    margin-top: 3.5rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 50px;
+    width: 95%;
+    height: 8.5%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.landingPage_hero_searchbox:hover {
+    box-shadow: #ffdf00 0px 0px 0px 1px;
+    transition: 0.5s;
+}
+
+.icon {
+    margin-left: 1rem;
+}
+  
+.landingPage_hero_searchbar {
+    background-color: #ffff;
+    border: none;
+    color: #333;
+    font-family: 'nunito';
+    flex-grow: 2;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.landingPage_hero_searchbar:focus {
+    outline: none
+}
+  
+.landingPage_hero_searchbutton {
+    background-color: #ffcc00;
+    text-transform: uppercase;
+    color: #333;
+    border: 1px solid #ffff;
+    font-family: 'nunito';
+    border-radius: 50px;
+    max-width: 25%;
+    height: 100%;
+    padding: 0.5rem;
+    flex-grow: 1;
+    font-size: 0.9rem;
+    color: black;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.landingPage_hero_searchbutton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+  .landingPage_hero_searchbutton:active {
+    background-color: #333;
+    color: #fff;
+}

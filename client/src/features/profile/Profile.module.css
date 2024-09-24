@@ -1,0 +1,79 @@
+.profilePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profileContainer {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 1fr auto; /* auto will size the row based on the content */
+    grid-auto-rows: 1fr; /* new rows will take up remaining space */
+    grid-column-gap: 2rem;
+    margin: 3rem 12rem;
+}
+
+.sideButtonsContainer {
+    grid-area: 1 / 1 / 2 / 2;
+    max-height: 20rem;
+    display: flex;
+    background-color: #e8e9eb75;
+    border-radius: 16px;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.inactiveButton {
+    background-color: transparent;
+    text-align: center;
+    height: auto;
+    color: black;
+    border: transparent;
+    border-radius: 50px;
+    padding: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'nunito';
+    font-size: 1rem
+}
+
+.inactiveButton:hover {
+    cursor: pointer;
+    background-color: #ffdf00;
+}
+
+.activeButton {
+    font-size: 1rem;
+    background-color: #ffdf00;
+    text-align: center;
+    height: auto;
+    color: #333;
+    border: transparent;
+    border-radius: 50px;
+    padding: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'nunito';
+}
+
+.tabContent {
+    grid-area: auto / 2;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}

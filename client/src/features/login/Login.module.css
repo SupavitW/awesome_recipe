@@ -1,0 +1,96 @@
+
+.login_main {
+    --bg-image: url('../../assets/login-background_img.jpg');
+    --bg-image-size: cover;
+    --bg-image-position: center;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_main::after {
+    content: '';
+    position: absolute;
+    isolation: isolate;
+    z-index: -1;
+    inset: 0;
+    background-image: var(--bg-image);
+    background-position: var(--bg-image-position);
+    background-size: var(--bg-image-size);
+    -webkit-filter: blur(3.5px);
+    filter: blur(3.5px);
+}
+
+.login_body_container {
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 16px;
+    gap: 2rem;
+    box-shadow: 5px 5px 5px 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.login_body_container h2 {
+    margin: 0;
+}
+
+.login_body_header {
+    margin-right: 3.5rem ;
+}
+
+.login_body_header h2 {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.login_body_formContainer {
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    margin-right: 1.5rem;
+}
+.login_body_formContainer form {
+    width: 100%;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login_body_formContainer label {
+    font-weight: bold; 
+}
+
+.login_body_formContainer input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 0.8rem;
+    width: 108%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.toastContainerClass {
+    background-color: #ffcc00;
+    color: #333;
+}

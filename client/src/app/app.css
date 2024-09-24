@@ -1,0 +1,51 @@
+html {
+    font-family: "nunito", "mulish", sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    font-family: "nunito", "mulish", sans-serif;
+}
+
+* button {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin:0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input {
+    font-family: 'nunito', 'mulish', sans-serif;
+}

@@ -1,0 +1,33 @@
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffff;
+    padding: 2rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.loaderBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #e8e9eb75;
+    border: 1px solid #e8e9eb75;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+.loaderContainer h2 {
+    font-weight: normal;
+    margin: 0 0 0 1.2rem;
+}

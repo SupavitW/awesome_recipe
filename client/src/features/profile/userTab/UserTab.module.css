@@ -1,0 +1,55 @@
+.userTabContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.userTabHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9eb75;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 30%;
+}
+
+.userTabHeader h2 {
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    margin: 0.5rem 1rem ;
+}
+
+.userTabContent {
+    width: 100%;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInfo ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-left: 0;
+}
+
+.profileInfo li {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.editProfileOptions{
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+   align-items: center;
+}

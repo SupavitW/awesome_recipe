@@ -1,0 +1,64 @@
+.todayRecipes_container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todayRecipes_header {
+    text-align: center;
+    width: 100%;
+}
+
+.todayRecipes_header h2 {
+    margin-left: 0;
+    text-decoration: wavy;
+}
+
+.todayRecipes_card-Containers {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.utensilsIcon {
+    text-align: center;
+    border: 2px solid #ffcc00;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.5rem;
+    width: 2em;
+    height: auto;
+}
+
+.more-recipes-link {
+    background-color: #ffcc00;
+    font-size: 1.2rem;
+    width: 4em;
+    text-align: center;
+    height: auto;
+    color: #333;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    padding: 0.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more-recipes-link:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.more-recipes-link:active {
+    background-color: #333;
+    color: #fff;
+}
+
+.landingPage_more-recipes_line {
+    width: 7%;
+    height: 0.1em;
+    background-color: #ffdf00;
+}

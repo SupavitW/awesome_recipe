@@ -1,0 +1,65 @@
+.landingPage_popularCategories_container {
+    margin: 2rem 0 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.landingPage_popularCategories_sectionTitle {
+    width: 100%;
+}
+
+.landingPage_popularCategories_cardsContainer {
+    display: flex;
+    width: 100%;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.more-categories {
+    margin-top: 4rem;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.more-categories-link {
+    background-color: #ffcc00;
+    font-size: 1.2rem;
+    width: 4em;
+    text-align: center;
+    height: auto;
+    color: #333;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    padding: 0.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more-categories-link:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.more-categories-link:active {
+    background-color: #333;
+    color: #fff;
+}
+
+.landingPage_more-categories_line {
+    width: 7%;
+    height: 0.12rem;
+    background-color: #ffdf00;
+}
+
+
+

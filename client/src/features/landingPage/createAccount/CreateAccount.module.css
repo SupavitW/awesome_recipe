@@ -1,0 +1,80 @@
+.container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container h2 {
+    width: 75%;
+    text-align: center;
+}
+
+.content_container {
+    width: 75%;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 1rem;
+}
+
+.image_container {
+    min-height: 100%;
+    text-align: center;
+    margin: 0;
+    width: 55%;
+}
+
+.image_container img {
+    min-height: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 5%; 
+    border-bottom-left-radius: 5%; 
+}
+
+.benefits_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    background-color: #e8e9eb75;
+    border-top-right-radius: 5%; 
+    border-bottom-right-radius: 5%; 
+    padding: 2rem;
+    margin: 0;
+}
+
+.iconAndHeading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits_container h4 {
+    position: relative;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+
+.benefits_container h4:not(:last-child)::after {
+    content: ""; /* Add content none */
+    position: absolute;
+    bottom: -1.5rem; /* Adjust positioning to below the h4 element */
+    left: -1.5%; /* Move the pseudo-element to the left */
+    width: 105%; /* Make the line twice as wide as the container */
+    height: 0.2rem;
+    background-color: white;
+}
+
+.userButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
