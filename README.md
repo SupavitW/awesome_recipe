@@ -24,6 +24,7 @@ The following variables are required to run the program.
 - USER
 - PASS
 - PORT
+- SECRET
 
 `USER`, `PORT`, and `PASSWORD` can be obtained from your local configuration.
 `SECRET` can be generated on your own choosing.
