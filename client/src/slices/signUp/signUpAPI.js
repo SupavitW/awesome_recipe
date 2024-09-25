@@ -5,7 +5,7 @@ import axiosInstance from '../../utils/axios/axiosInstance';
 export const createUser = createAsyncThunk('signUp/createUser', async (userInput, { rejectWithValue }) => {
     // Make a POST req to create user in database
     try {
-        const response = await axiosInstance.post('http://localhost:8000/register', userInput, {
+        const response = await axiosInstance.post(`${process.env.REACT_APP_BASE_URL}/register`, userInput, {
         headers: {
                 'Content-Type': 'application/json'
             }, withCredentials: true
