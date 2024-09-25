@@ -5,7 +5,6 @@ export const getShoppingList = createAsyncThunk('shoppingList/getShoppingList', 
     // Make a GET request
     try {
         const targetURL = process.env.REACT_APP_BASE_URL + process.env.REACT_APP_SUB_URL_SHOPPINGLIST;
-        console.log('targetURL: ', targetURL)
         const response = await axiosInstance.get(targetURL, {
             headers: {
                 'Content-Type': 'application/json'
