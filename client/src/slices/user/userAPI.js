@@ -7,7 +7,7 @@ export const revertAll = createAction('REVERT_ALL')
 export const fetchUser = createAsyncThunk('user/fetchUser', async (userInput, { rejectWithValue }) => {
     // Make a POST request with data
     try {
-        const response = await axiosInstance.post('http://localhost:8000/login', userInput, {
+        const response = await axiosInstance.post(`${process.env.REACT_APP_BASE_URL}/login`, userInput, {
             headers: {
                 'Content-Type': 'application/json'
             }, withCredentials: true
@@ -25,7 +25,7 @@ export const fetchUser = createAsyncThunk('user/fetchUser', async (userInput, { 
 
 export const logoutUser = createAsyncThunk('user/logout', async ({ navigate },{ rejectWithValue, dispatch  }) => {
     try {
-        const response = await axiosInstance.get('http://localhost:8000/logout', {
+        const response = await axiosInstance.get(`${process.env.REACT_APP_BASE_URL}/logout`, {
             headers: {
                 'Content-Type': 'application/json'
             }, withCredentials: true
