@@ -3,6 +3,9 @@
 ## Description:
 Create a web application that allows users to search, store, and manage their recipes. The system should enable users to browse recipes, save their favorite recipes, create new recipes, and organize them into categories or collections.
 
+## Project Hosting
+This project is currently being hosted at [awesome-recipe-static.onrender.com](https://awesome-recipe-static.onrender.com). Click the link to visit the site.
+
 ## Key Features:
 - User Authentication: Allow users to sign up, log in, and manage their profiles securely. 
 - Recipe CRUD Operations: Implement functionality for users to create, read, update, and delete recipes. 
