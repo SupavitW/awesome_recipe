@@ -27,7 +27,7 @@ server.use(helmet());
 
 // Middleware for handling CORS requests 
 server.use(cors({
-    origin: 'http://localhost:3000', // Replace with your frontend origin
+    origin: 'https://awesome-recipe-static.onrender.com', // Replace with frontend origin
     credentials: true,
 }));
 
