@@ -5,13 +5,19 @@ const { Sequelize } = require('sequelize');
 
 // Instantiate  sequelize instance
 // eslint-disable-next-line no-undef
-const sequelize = new Sequelize('my_recipes', process.env.USER, process.env.PASSWORD, {
-    host: 'localhost',
-    dialect: 'postgres',
-    define: {
-        timestamps: false, 
-        freezeTableName: true
-      }
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: 'postgres',
+  protocol: 'postgres',
+  dialectOptions: {
+    ssl: {
+      require: true, // Enforce SSL connection
+      rejectUnauthorized: false // Allow self-signed certificates
+    }
+  },
+  define: {
+    timestamps: false, 
+    freezeTableName: true
+  }
 });
 
 // Setup db object to include sequelize(object), Sequelize(class), and all models
