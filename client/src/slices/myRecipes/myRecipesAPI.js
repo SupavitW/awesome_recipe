@@ -5,7 +5,6 @@ export const getMyRecipes = createAsyncThunk('myRecipes/getMyRecipes', async (_,
     // Make a GET request
     try {
         const targetURL = process.env.REACT_APP_BASE_URL + process.env.REACT_APP_SUB_URL_RECIPES + '/myRecipes';
-        console.log('targetURL: ', targetURL)
         const response = await axiosInstance.get(targetURL, {
             headers: {
                 'Content-Type': 'application/json'
