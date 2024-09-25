@@ -2,3 +2,4 @@
 package-lock.json
 .eslintrc.json
 postgresCommand
+/node_modules
