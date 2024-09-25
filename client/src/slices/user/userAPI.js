@@ -49,7 +49,7 @@ export const editProfile = createAsyncThunk('user/editProfile', async ({userInpu
     try {
         let response = null;
         if ( option === 'name') {
-            response = await axiosInstance.put('http://localhost:8000/editProfile/name', userInput, {
+            response = await axiosInstance.put(`${process.env.REACT_APP_BASE_URL}/editProfile/name`, userInput, {
                 headers: {
                     'Content-Type': 'application/json'
                 }, withCredentials: true
@@ -58,7 +58,7 @@ export const editProfile = createAsyncThunk('user/editProfile', async ({userInpu
                 return response.data;
             }
         } else {
-            response = await axiosInstance.put('http://localhost:8000/editProfile/password', userInput, {
+            response = await axiosInstance.put(`${process.env.REACT_APP_BASE_URL}/editProfile/password`, userInput, {
                 headers: {
                     'Content-Type': 'application/json'
                 }, withCredentials: true
