@@ -38,7 +38,7 @@ This project is currently being hosted at [awesome-recipe-static.onrender.com](h
 - **Database**: PostgreSQL
 - **Database Connection**: Sequelize
 - **Authentication**: Implement secure authentication using JWT token sent through cookies
-- **Frontend**: Use HTML5, CSS, and JavaScript along with REACT for building the user interface.
+- **Frontend**: Use HTML5, CSS, and JavaScript along with REACT for building the user interface and REDUX for state management.
 - **Deployment**: Deploy the application on cloud platforms using Render for accessibility.
 
 ## Environment variables :deciduous_tree:
