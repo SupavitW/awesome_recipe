@@ -3,13 +3,19 @@
 ## Description :pencil:
 Create a web application that allows users to search, store, and manage their recipes. The system should enable users to browse recipes, save their favorite recipes, create new recipes, and organize them into categories or collections.
 
-## Homepage Demo
+## Homepage Demo :camera:
 ![awesome recipes homepage](./media/awesome_recipes_homepage.jpg)
+
+## Database Diagram :large_blue_circle:
+![awesome recipes database diagram](./media/database_diagram_schema.png)
+
+## API Endpoints Diagram :twisted_rightwards_arrows:
+![awesome recipes API endpoints diagram](./media/path_diagram.jpg)
 
 ## Project Hosting :globe_with_meridians:
 This project is currently being hosted at [awesome-recipe-static.onrender.com](https://awesome-recipe-static.onrender.com). Click the link to visit the site.
 
-<mark>The first api call operation will be quite slow as this is a free render plan</mark>
+<mark>The first api call operation will be quite slow as this is a free render plan</mark>, so it will be slow or even error at first, but can be fixed by wait a little then refreshing the page.
 
 ## Key Features :pushpin:
 - **User Authentication**: Allow users to sign up, log in, and manage their profiles securely.
@@ -24,7 +30,7 @@ This project is currently being hosted at [awesome-recipe-static.onrender.com](h
   
 - **Shopping List Integration** :memo:: Allow users to add ingredients from recipes to a shopping list for convenient meal planning and grocery shopping.
 
-## Future Improvement :arrow_upper_right:
+## Future Improvement :soon:
 - Responsive design on the frontend.
   
 ## Technologies :computer:
