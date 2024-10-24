@@ -104,7 +104,7 @@ Recipes_ingredients = sequelize.define('recipes_ingredients', {
     allowNull: false
   },
   unit: { type: Sequelize.STRING(50), allowNull: false },
-  quantity: { type: Sequelize.NUMBER, allowNull: false }
+  quantity: { type: Sequelize.INTEGER, allowNull: false }
 });
 Recipes.belongsToMany(Ingredients, { through: Recipes_ingredients, foreignKey: 'recipe_id', 
                                     onDelete: 'CASCADE'});
